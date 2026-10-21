@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100909">
+  <title>DYM TV Digital</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #100909;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 25px 18px;
+      text-align: center;
+      border-bottom: 1px solid #3a1717;
+    }
+    .logo {
+      color: #ff2929;
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: 3px;
+    }
+    .sublogo {
+      font-size: 12px;
+      letter-spacing: 4px;
+      color: #ddd;
+    }
+    .hero {
+      text-align: center;
+      padding: 65px 20px 55px;
+      background: radial-gradient(ellipse at top, #651313, #100909 72%);
+    }
+    .hero h1 {
+      font-size: clamp(30px, 8vw, 48px);
+      margin: 10px 0;
+    }
+    .hero p {
+      color: #ddd;
+      line-height: 1.6;
+      max-width: 440px;
+      margin: 15px auto 25px;
+    }
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      background: #e51c23;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 18px 50px;
+    }
+    h2 { text-align: center; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 25px;
+    }
+    .card {
+      padding: 23px;
+      background: #201414;
+      border: 1px solid #482020;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .card .symbol {
+      font-size: 32px;
+    }
+    .card p {
+      color: #ccc;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #999;
+      border-top: 1px solid #3a1717;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">DYM</div>
+    <div class="sublogo">SERVICIOS DIGITALES</div>
+  </header>
+
+  <section class="hero">
+    <p>BIENVENIDO A NUESTRA PLATAFORMA</p>
+    <h1>DYM TV Digital</h1>
+    <p>Tu espacio de entretenimiento digital.
+      Descubrí una nueva forma de disfrutar desde
+      tu celular o dispositivo compatible.</p>
+    <a class="button" href="#servicios">CONOCÉ LA PLATAFORMA</a>
+  </section>
+
+  <main id="servicios">
+    <h2>Tu entretenimiento, en un solo lugar</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="symbol">📱</div>
+        <h3>Para celulares</h3>
+        <p>Una experiencia adaptable a tu pantalla Android.</p>
+      </div>
+      <div class="card">
+        <div class="symbol">📺</div>
+        <h3>Para TV Box</h3>
+        <p>Diseño pensado para continuar el desarrollo
+          en dispositivos compatibles.</p>
+      </div>
+      <div class="card">
+        <div class="symbol">🎬</div>
+        <h3>Entretenimiento digital</h3>
+        <p>Una plataforma preparada para incorporar
+          servicios y contenido autorizado.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    DYM TV Digital · Servicios digitales
+  </footer>
+</body>
+</html>
